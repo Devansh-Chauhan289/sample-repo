@@ -1,0 +1,51 @@
+.body{
+    background-color: bisque;
+
+}
+
+.cards-cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    row-gap: 40px;
+}
+
+.card{
+    margin: auto;
+}
+
+#navbar{
+    padding: 10px 0px;
+    
+    background-color: #C2A488;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar>div{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+#navbar>div:nth-child(3){
+    position: relative;
+    
+    right: 0px;
+    left: 130px;
+    width: 600px;
+    color: #9e1b32;
+}
+
+.avatar{
+    position: relative;
+    right: 0px;
+    left: 100px;
+}
