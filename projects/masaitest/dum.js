@@ -23,17 +23,18 @@ function FindFirstUnique(str) {
     return -1;
 }
 
-app.post("/first", async (req, res) => {
+app.post("/FirstUnique", async (req, res) => {
     try {
         let text_to_process = req.body.text; 
         let ans = FindFirstUnique(text_to_process);
         
         
-        return res.json({
+        res.json({
             "First_Unique_Char": text_to_process[ans],
             "First_Unique_index": ans,
             "TimeStamp": new Date().toISOString()
         });
+        console.log(new Date().toISOString(),"/FirstUnique");
     } catch (error) {
         console.log("Error found:", error);
         return res.status(500).send("Something went wrong.");
