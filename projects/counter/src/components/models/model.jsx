@@ -6,7 +6,7 @@ export let initial = {
 export let countModel = (state,intent) => {
     switch (intent.type) {
         case "INCREMENT":
-            if(state.count<99){
+            if(state.count<98){
                 return {
                     ...state,count : state.count + 1
                 }
