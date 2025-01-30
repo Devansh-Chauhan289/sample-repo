@@ -1,0 +1,61 @@
+.inputs{
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: powderblue;
+  width: 400px;
+  height: 50px;
+  margin: auto;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.form-data{
+  
+  width: fit-content;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+button{
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  margin-left: 25%;
+  background: rgb(38,163,227);
+  background: radial-gradient(circle, rgba(38,163,227,1) 0%, rgba(0,158,246,1) 51%, rgba(15,136,139,1) 100%);
+}
+
+form{
+  padding-top: 100px;
+  border: 2px solid;
+  border-radius: 20px;
+  height: auto;
+  width: 50%;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.card{
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.card-button{
+  width: 300px;
+  margin-left:40px ;
+}
+
+#card-body{
+  border: 2px solid;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Link{
+  list-style: none;
+}
