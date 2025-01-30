@@ -24,3 +24,12 @@ MongoDB for storing user and todo data
 JWT (JSON Web Tokens) for handling authentication and authorization
 
 Bcrypt for hashing passwords
+
+
+          <!-- How to Use:  -->
+
+==> Clone the Github repository
+
+==> install the dependencies
+
+==> then in terminal use "npm run start" to run the application
